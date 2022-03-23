@@ -1,6 +1,6 @@
 void main() {
   final person = Person(name: "Mohammad Shehab", age: 34, height: 76.5);
-  print(person.describe());
+  print(person);
 
   final employee = Employee(
       name: "Mohammad Shehab",
@@ -9,7 +9,7 @@ void main() {
       employeeID: "moha4605",
       salary: 10.5);
 
-  print(employee.toString());
+  print(employee);
 }
 
 class Person {
